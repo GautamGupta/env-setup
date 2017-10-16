@@ -1,0 +1,2 @@
+brew install fish # https://fishshell.com/
+curl -L https://get.oh-my.fish | fish # https://github.com/oh-my-fish/oh-my-fish
