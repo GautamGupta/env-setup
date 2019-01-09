@@ -1,42 +1,51 @@
 {
-    "auto_indent": true,
-    "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-    "detect_indentation": true,
-    "draw_indent_guides": true,
-    "ensure_newline_at_eof_on_save": true,
-    "expand_tabs_on_save": true,
-    "file_exclude_patterns":
-    [
-        "*.DS_Store",
-        "*.pyc",
-        "*.git"
-    ],
-    "find_selected_text": true,
-    "folder_exclude_patterns":
-    [
-        ".svn",
-        ".hg",
-        "CVS",
-        "node_modules",
-        "build"
-    ],
-    "font_size": 12,
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
-    "remember_open_files": true,
-    "remember_open_folders": true,
-    "rulers":
-    [
-        120
-    ],
-    "save_on_focus_lost": true,
-    "smart_indent": true,
-    "tab_size": 4,
-    "theme": "Spacegray.sublime-theme",
-    "translate_tabs_to_spaces": true,
-    "trim_automatic_white_space": true,
-    "trim_trailing_white_space_on_save": true,
-    "use_tab_stops": true
+	"auto_indent": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"detect_indentation": true,
+	"draw_indent_guides": true,
+	"expand_tabs_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.DS_Store",
+		"*.pyc",
+		"*.git",
+		"*.class",
+		"dist/*.js",
+		"dist/*.css",
+		"coverage/"
+	],
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".hg",
+		"CVS",
+		"node_modules",
+		"build"
+	],
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"EditorConfig",
+		"ESLint",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"Vintage"
+	],
+	"remember_open_files": true,
+	"remember_open_folders": true,
+	"rulers":
+	[
+		100
+	],
+	"save_on_focus_lost": true,
+	"smart_indent": true,
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true
 }
